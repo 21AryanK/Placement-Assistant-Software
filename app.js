@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const bcrypt = require('bcrypt');
 
 // MongoDB connection URL
-const mongoURL= 'mongodb+srv://admin-aryan:P36l69Y9Njq0ekAc@cluster0.ca3e4px.mongodb.net/placementAss';
+const mongoURL= 'mongodb+srv://"MongoPass"@cluster0.ca3e4px.mongodb.net/placementAss';
 
 // Connect to MongoDB
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true })
