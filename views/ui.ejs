@@ -1,0 +1,106 @@
+<%- include('partials/header') %>
+<nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand d-md-none" href="#">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 justify-content-between"></li>
+            <li class="nav-item"><a class="nav-link" href="/mainPage">Job Oppenings</a></li>
+            <li class="nav-item"><a class="nav-link" href="/details">Add your Details</a></li>
+            <li class="nav-item"><a class="nav-link" href="/feedback">Feedback</a></li>
+            <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+ 
+  <h1>Available Job Opennings</h1>
+  <!-- Page Content -->
+  
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Microsoft</h3>
+        <p>ReactJs Software Developer</p>
+        <a href="/details" class="btn btn-primary">
+          Apply
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Netflix</h3>
+        <p>NodeJs Developer</p>
+        <a href="/details" class="btn btn-primary">
+          Apply
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">GitHub</h3>
+        <p>Database Manager</p>
+        <a href="/details" class="btn btn-primary">
+          Apply
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Google</h3>
+        <p>Data Analyst</p>
+        <a href="/details" class="btn btn-primary">
+          Apply
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">IBM</h3>
+        <p>NodeJs Developer</p>
+        <a href="/details" class="btn btn-primary">
+          Apply
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Adobe</h3>
+        <p>Android Developer</p>
+        <a href="/details" class="btn btn-primary">
+          Apply
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+<%- include('partials/footer') %>
